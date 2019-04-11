@@ -1,0 +1,492 @@
+<style>
+    .d8d8d8{
+        background-color: #d8d8d8;
+        padding: 5px;
+
+    }
+    .ffd700{
+        background-color: #ffd700;
+        padding: 5px;
+
+    }
+    .ffa07a{
+        background-color: #ffa07a;
+        padding: 5px;
+
+    }
+    .d3d3d3{
+        background-color: #d3d3d3;
+        padding: 5px;
+
+    }
+    .google_adsense{
+        text-align: center;
+    }
+    video{
+        width: 80%;
+        padding-bottom: 5px;
+    }
+    .sub_comment{
+        padding-left: 20px;
+    }
+
+</style>
+<script type="text/javascript" src="http://congly.vn/video/jwplayer.js"></script>
+<div class="content-left">
+    <div class="popbox">
+        <div class="breadcrumb">
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"
+                 class="breadcrumble_title breadcrumble_home">
+                <a itemprop="url" href="/" rel="nofollow" class="breadcrumble_title">Trang chủ</a>
+            </div>
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"
+                 class="breadcrumble_title {class_cate_end_1}">
+                <h1 style="margin: 0px; padding: 0px"><a itemprop="url" href="{cate_parent_href}" rel="nofollow"
+                                                         class="breadcrumble_title">{cate_parent_name}</a></h1>
+            </div>
+            <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"
+                 class="breadcrumble_title {class_cate_end_2}" style="display:{display_cate_child}">
+                <span itemprop="title" class="breadcrumble_title">{cate_child_name}</span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <a class="open" href="#"></a>
+        <a href="{href_rss}" class="rss-link2"><img src="webskins/skins/news/images/rss-icon.png" alt="rss"/></a>
+        <div class="collapse">
+            <div class="box">
+                <ul>
+                    <!-- BEGIN Cate -->
+                    <li><a href="{cate_href}/" class="title17">{cate_name}</a></li>
+                    <!-- END Cate -->
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="news-detail">
+        <h1 class="news-detail-header">{title}</h1>
+        <div>{topic_name}</div>
+        <div class="date-top">{time_public}</div>
+        <div class="resocial-dt">
+            <div style="text-align:center;">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div style="width:80px;float:left;display:inline-block">
+                                <div id="fb-root"></div>
+                                <script>
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id))
+                                            return;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                    (document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-like" data-href="{link_detail}" data-width="300" data-show-faces="false"
+                                     data-layout="button_count"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <a title="Đăng lên FaceBook" target="_blank"
+                               href="http://www.facebook.com/share.php?u={link_detail}"><img border="0"
+                                                                                             src="webskins/skins/news/images/chiase_btn2.gif"></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="news-detail-summary">
+            {description}
+        </div>
+        <div class="google_adsense">
+            <div id="ads_sapo_switch_scr">
+                <style>
+                    #ads_sapo_mb{ display:none; }
+                    #ads_sapo_pc{ display:block; }
+                    @media only screen and (max-width: 768px) {
+                        #ads_sapo_mb{ display:block; }
+                        #ads_sapo_pc{ display:none; }
+                    }
+                </style>
+                <div id="ads_sapo_pc">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- PC_title -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:680px;height:90px"
+                         data-ad-client="ca-pub-3880298791450605"
+                         data-ad-slot="8517992118"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div id="ads_sapo_mb">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- MB_detail_sapo -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:300px;height:250px"
+                         data-ad-client="ca-pub-3880298791450605"
+                         data-ad-slot="2882522055"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="news-dscontent">
+            {content}
+        </div>
+        {related}
+        <div class="ntd-author">{author}</div>
+        <div class="google_adsense">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- footer_300x250 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:300px;height:250px"
+                 data-ad-client="ca-pub-3880298791450605"
+                 data-ad-slot="7653953974">
+            </ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="tag-header">
+            <div class="tag-header-description">
+                Bạn đang đọc bài viết <a href="{link_detail}">{title}</a> tại chuyên mục <a href="{cate_parent_href}">{cate_parent_name}</a> của <a href="/">Báo điện tử Công lý</a>. {sdt_24}
+            </div>
+        </div>
+        <div class="detail-tag">
+            <strong>Tag :</strong>
+            <!-- BEGIN Tag -->
+            <a href="{tag_link}">{tag_name}</a>&nbsp;/&nbsp;
+            <!-- END Tag -->
+        </div>
+    </div>
+    <div style="clear: both"></div>
+
+    <!--Bình luận-->
+    <div class="comment-dt">
+        <h4 class="comment-header">ý kiến của bạn</h4>
+        <form method="post" class="comment-form">
+            <input name="name" id="txt_name" type="text" value="Họ tên hoặc Email" class="comment-name"
+                   onclick="if(this.value=='Họ tên hoặc Email'){this.value=''}"
+                   onblur="if(this.value==''){this.value='Họ tên hoặc Email'}"/>
+            <textarea class="comment-request" id="comment" onclick="if(this.value=='Nội dung bình luận'){this.value=''}"
+                      onblur="if(this.value==''){this.value='Nội dung bình luận'}">Nội dung bình luận</textarea>
+            <div class="comment-button">
+                <input type="button" class="comment-button" value="Gửi bình luận" onclick="send({id})"/>
+            </div>
+        </form>
+        <div class="totle-comment-title" style="display: {display}">Tổng số bình luận: ({total})</div>
+        <div class="comment-content" style="display: {display}; height: 600px; overflow: scroll;">
+            <ul>
+                <!-- BEGIN Comment -->
+                <li>
+                    <div class="comment-user"><b>{full_name}</b></div>
+                    <div class="comment-date"></div>
+                    <div class="comment-detail">
+                        {content_cm}
+                    </div>
+                    <div class="comment-action">
+                        <a style="cursor: pointer" onclick="comment_like({cm_id})" class="comment-like">Thích<span id="cm_{cm_id}">{number_like}</span></a>
+                        <span class="comment-reply">Trả lời</span>
+                        <div class="reply-box" style="display: none;">
+                            <input type="hidden" name="comment_id" value="{cm_id}" id="{cm_id}" />
+                            <input type="text" name="reply_name_{cm_id}" value="" id="reply_name_{cm_id}" style="float: left" placeholder="Name*" />
+                            <textarea class="reply-request" name="reply_content_{cm_id}" id="reply_content_{cm_id}"></textarea>
+                            <div class="reply-button">
+                                <input value="Gửi" class="reply-button" type="button" id="reply_comment" onclick="reply_comment({cm_id},{id})">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                {html_comment_a}
+                <!-- END Comment -->
+            </ul>
+             <!-- BEGIN Comment_a -->
+             <li class="sub_comment">
+                    <div class="comment-user"><b>{full_name_a}</b></div>
+                    <div class="comment-date"></div>
+                    <div class="comment-detail">
+                        {content_cm_a}
+                    </div>
+                    <div class="comment-action">
+                        <a style="cursor: pointer" onclick="comment_like({cm_id_a})" class="comment-like">Thích<span id="cm_{cm_id_a}">{number_like_a}</span></a>
+                    </div>
+                </li>
+             <!-- END Comment_a -->
+        </div>
+    </div>
+    <div style="clear: both"></div>
+    <!--Tin liên quan-->
+    <div class="detail-related">
+        <h4 class="detail-related-title">Tin tức cùng chuyên mục</h4>
+        <div class="detail-related-list">
+            <!-- BEGIN Same -->
+            <div class="detail-related-item">
+                <a href="{same_link}" class="detail-related-img" title="{same_html_title}">
+                    <img src="{same_img}" alt="{same_html_title}"/>
+                </a>
+                <a href="{same_link}" class="title15" title="{same_html_title}">{same_title}</a>
+            </div>
+            <!-- END Same -->
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div style="clear: both"></div>
+    <!-- Tin mới khác chuyên mục -->
+    <div class="detail-related">
+        <h4 class="detail-related-title">Tin tức mới nhất</h4>
+        <div class="detail-related-list">
+            <!-- BEGIN Other -->
+            <div class="detail-related-item">
+                <a href="{other_link}" class="detail-related-img" title="{other_html_title}">
+                    <img src="{other_img}" alt="{other_html_title}"/>
+                </a>
+                <a href="{other_link}" class="title15" title="{other_html_title}">{other_title}</a>
+            </div>
+            <!-- END Other -->
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- Tin conglyxahoi -->
+    <div class="detail-related">
+        <h4 class="detail-related-title">Tin Công lý & Xã hội đáng quan tâm</h4>
+        <div class="detail-related-list">
+            <!-- BEGIN Conglyxahoi -->
+            <div class="detail-related-item">
+                <a target="_blank" href="{conglyxahoi_link}" class="detail-related-img" title="{conglyxahoi_html_title}">
+                    <img src="{conglyxahoi_img}" alt="{conglyxahoi_html_title}"/>
+                </a>
+                <a target="_blank" href="{conglyxahoi_link}" class="title15" title="{conglyxahoi_html_title}">{conglyxahoi_title}</a>
+            </div>
+            <!-- END Conglyxahoi -->
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--Tin tức đáng quan tâm khác-->
+    <div class="offer-news">
+        <div class="hdb-news">
+            <h5 class="hdb-news">
+                <a>Tin tức đáng quan tâm khác</a>
+            </h5>
+        </div>
+        <div class="offer-newslist">
+            <div class="offer-newslist-item">
+                <h5 class="offer-newslist-title"><a href="{cate1_change_href}/">{cate1_change_name}</a></h5>
+                <ul>
+                    <li>
+                        <a href="{href_cate11}" class="title15" title="{html_title_cate11}">
+                            <img src="{img_cate11}" class="offer-newslist-img" alt="{html_title_cate11}">
+                            {title_cate11}
+                        </a>
+                    </li>
+                    <li><a href="{href_cate12}" class="title15" title="{html_title_cate12}">{title_cate12}</a></li>
+                    <li><a href="{href_cate13}" class="title15" title="{html_title_cate12}">{title_cate13}</a></li>
+                    <li><a href="{href_cate14}" class="title15" title="{html_title_cate12}">{title_cate14}</a></li>
+                    <li><a href="{href_cate15}" class="title15" title="{html_title_cate12}">{title_cate15}</a></li>
+                </ul>
+            </div>
+            <div class="offer-newslist-item">
+                <h5 class="offer-newslist-title"><a href="{cate2_change_href}/">{cate2_change_name}</a></h5>
+                <ul>
+                    <li>
+                        <a href="{href_cate21}" class="title15" title="{html_title_cate21}">
+                            <img src="{img_cate21}" class="offer-newslist-img" alt="{html_title_cate21}">
+                            {title_cate21}
+                        </a>
+                    </li>
+                    <li><a href="{href_cate22}" class="title15" title="{html_title_cate12}">{title_cate22}</a></li>
+                    <li><a href="{href_cate23}" class="title15" title="{html_title_cate12}">{title_cate23}</a></li>
+                    <li><a href="{href_cate24}" class="title15" title="{html_title_cate12}">{title_cate24}</a></li>
+                    <li><a href="{href_cate25}" class="title15" title="{html_title_cate12}">{title_cate25}</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script src="http://congly.vn/webskins/skins/news/js/update_hit.js" type="text/javascript"></script>
+<script>
+    var figure = $("center");
+    var vid = figure.find("video");
+
+    [].forEach.call(figure, function (item,index) {
+        item.addEventListener('mouseover', hoverVideo.bind(item,index), false);
+        item.addEventListener('mouseout', hideVideo.bind(item,index), false);
+    });
+
+    function hoverVideo(index, e) {
+        vid[index].play();
+    }
+
+    function hideVideo(index, e) {
+        vid[index].pause();
+    }
+</script>
+<script type="application/javascript">
+    $(function () {
+        $('.comment-reply').click(function () {
+            $(this).siblings('.reply-box').slideToggle('fast')
+        })
+    })
+    function reply_comment(cm_id,id){
+        var name = $('#reply_name_' + cm_id).val();
+        var comment = $('#reply_content_' + cm_id).val();
+        if (name == '') {
+            alert('Bạn chưa nhập họ tên!');
+            $('#reply_name_' + cm_id).focus();
+            return false;
+        }
+        if (comment == '') {
+            alert('Bạn chưa nhập nội dung.');
+            $('#reply_comment_'+cm_id).focus();
+            return false;
+        }
+        $.post("ajax.php?fnc=detail&path=news", {
+                    'action': 'send_comment_reply',
+                    'name': name,
+                    'comment': comment,
+                    'cm_id':cm_id,
+                    'news_id': id
+                },
+                function (data) {
+                    if (data == 1) {
+                        alert('Trả lời của bạn sẽ được hiển thị sau khi được ban quản trị duyệt.');
+                        window.location.reload();
+                    }
+                    else {
+                        alert('Không thể gửi phản hồi tới ban quản trị.');
+                    }
+                }
+        );
+    }
+
+    $(document).ready(function () {
+        update_hit('{id}');
+    });
+
+    function send(id) {
+        var name = $('#txt_name').val();
+        var comment = $('#comment').val();
+        if (name == '' || name == 'Họ tên hoặc Email') {
+            alert('Bạn chưa nhập họ tên!');
+            $('#txt_name').focus();
+            return false;
+        }
+        if (comment == '' || comment == 'Nội dung bình luận') {
+            alert('Bạn chưa nhập nội dung.');
+            $('#comment').focus();
+            return false;
+        }
+        $.post("ajax.php?fnc=detail&path=news", {
+                    'action': 'send_comment',
+                    'name': name,
+                    'comment': comment,
+                    'news_id': id
+                },
+                function (data) {
+                    if (data == 1) {
+                        alert('Phản hồi của bạn sẽ được hiển thị sau khi được ban quản trị duyệt.');
+                        $('#txt_name').val('Họ tên hoặc Email');
+                        $('#comment').val('Nội dung bình luận');
+                        window.location.reload();
+                    }
+                    else {
+                        alert('Không thể gửi phản hồi tới ban quản trị.');
+                    }
+                }
+        );
+    }
+    function comment_like(id){
+        $.post("ajax.php?fnc=detail&path=news", {
+                    'action': 'like_comment',
+                    'id': id
+                },
+                function (data) {
+                    $("#cm_"+id).html(data);
+                }
+        );
+    }
+
+    function processFocus(txt_value, id) {
+        var comment = $('#' + id).val();
+        if (comment == txt_value) {
+            $('#' + id).val('');
+        }
+    }
+    function processBlue(txt_value, id) {
+        var comment = $('#' + id).val();
+        if (comment == '') {
+            $('#' + id).val(txt_value);
+        }
+    }
+    function clear_txt() {
+        $('#txt_name').val('');
+        $('#txt_email').val('');
+        $('#myimg').val('');
+        $('#comment').val('');
+    }
+    function isValidEmail(email) {
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (!filter.test(email)) {
+            return false;
+        }
+        return true;
+    }
+    function load_captchar(obj) {
+        $(obj).removeAttr('onclick');
+        $("#load_captchar").html('Đang tải');
+        $.post("ajax.php?fnc=detail&path=news", {'action': 'show_captchar',},
+                function (data) {
+                    $("#myimg").val('');
+                    $('#load_captchar').html(data);
+                }
+        );
+
+    }
+    function view_comment() {
+        $('#more_comment').show();
+        $('#button_display').html('<a style="cursor: pointer;" href="javascript:;" onclick="close_comment();">Đóng</a>');
+    }
+    function close_comment() {
+        $('#more_comment').hide();
+        $('#button_display').html('<a style="cursor: pointer;" href="javascript:;" onclick="view_comment();">Xem tất cả bình luận</a>');
+    }
+    function sz() {
+        u = location.href;
+        t = document.title;
+        window.open("http://link.apps.zing.vn/share?u=" + encodeURIComponent(u) + "&t=" + encodeURIComponent(t));
+    }
+    ;
+    function sy() {
+        u = location.href;
+        t = document.title;
+        window.open("http://buzz.yahoo.com/buzz?publisherurn=" + encodeURIComponent(u) + "&t=" + encodeURIComponent(t));
+    }
+    ;
+    function sf() {
+        u = location.href;
+        t = document.title;
+        window.open("http://www.facebook.com/share.php?u=" + encodeURIComponent(u) + "&t=" + encodeURIComponent(t));
+    }
+    ;
+    function sg() {
+        u = location.href;
+        t = document.title;
+        window.open("http://www.google.com/bookmarks/mark?op=edit&bkmk=" + encodeURIComponent(u) + "&title=" + t + "&annotation=" + t);
+    }
+    ;
+    function st() {
+        u = location.href;
+        t = document.title;
+        window.open("http://twitter.com/home?status=" + encodeURIComponent(u));
+    }
+    ;
+</script>

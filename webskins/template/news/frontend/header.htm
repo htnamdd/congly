@@ -1,0 +1,75 @@
+<style>
+    .google_adsense{
+        {google_adsence};
+    }
+    .submenu-header-child{
+     {show_menu};
+      padding:0px 0px 5px 5px;
+    }
+</style>
+<script type="text/javascript" src="webskins/skins/news/js/jquery.mmenu.min.all.js"></script>
+<div class="header">
+    <div class="logo-page">
+        {logo}
+    </div>
+    <div class="search-page">
+        <div class="date-time-header">{text_date}</div>
+        <script>
+            (function() {
+                var cx = '006675872554257042303:tgxk6xzw7t0';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>
+        <gcse:search></gcse:search>
+
+        <!--form method="post" class="search-page">
+            <input value="" class="search-keyword" type="text">
+            <input value="Tìm kiếm" class="search-submit" type="submit">
+            <input value="" class="search-submit-m" type="submit">
+        </form -->
+
+    </div>
+    <div class="header-button hdb">
+        <div class="hb-top">
+            <a href="http://conglyxahoi.net.vn" class="header-button button-congly24h" style="width: 85px"><span>Công lý & Xã hội</span></a>
+            <div class="clear"></div>
+        </div>
+        <div class="hb-bottom">
+            <a href="" class="header-button button-hotline"><span>043 8247204</span><span>0912 532 315</span></a>
+            <a href="" class="header-button button-email"><span>conglydientu@congly.vn</span></a>
+        </div>
+    </div>
+    <div class="header-button hdb-m" style="height:auto">
+        <a href="#menu" class="header-menu"></a>
+        <a href="mailto:conglydientu@congly.vn" class="header-button button-email"><span>conglydientu@congly.vn</span></a>
+        <a href="tel:043 8247204" class="header-button button-hotline"><span>043 8247204</span></a>
+        <a href="/tin-tuc-24h/" class="header-button"><strong>Tin mới</strong></a>
+        <a href="/" class="header-button button-home"></a>
+		<div class="google_adsense" style="margin: 10px 0px 0px 0px;padding:5px;">
+            <a target="_blank" href="https://congly.vn/358/hoa-giai-doi-thoai-tai-toa-an/"><img style="width: 100%; height:100px; padding-top:5px" src="adv/hoa_giai_anh.gif"></a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="header-menu">
+        <nav id="menu">
+            <ul>
+            <li class="{current_home}"><a href="/" class="menu-home"><font style="padding:0px 10px;">&nbsp;</font><span>Trang chủ</span></a></li>
+            {text_menu}
+            </ul>
+        </nav>
+    </div>
+    <div class="submenu-header">
+        <div style="float: right; width: 30%">
+            <a class="print-page" title="In với chế độ đây đủ" style="cursor: pointer" onclick="window.open('{uri}?print=1')"></a>
+        </div>
+    </div>
+
+</div>
+<script>
+    {action_print}
+</script>

@@ -1,0 +1,55 @@
+<script type="text/javascript">
+var imgDetail = $('#img'); 
+function ZoomOut() {
+	var width = $('#img').width() ;
+	$('#img').css( 'width', (width*1.1) + 'px' );
+}
+function ZoomIn() {
+	
+	var width = $('#img').width() ;
+	$('#img').css( 'width', (width*0.9) + 'px' );
+}
+</script>
+<div id="logo">
+    	<h1><a href="http://congly.com.vn" title="Báo Công Lý">Báo Công Lý</a></h1>
+    </div>
+    
+    <div id="nav">
+    	<ul>
+        	<li><a href="http://congly.com.vn" class="home">Trang chủ</a></li>
+            
+			<li>
+            	<a href="?app=news&page=baogiay&page_id={page_pre}&cate_id={cate_id_page}" class="prev">Trang phía sau</a>
+                <div class="select">
+                	<span>Trang {page_current}</span>
+                	<div class="select-value">
+                    	<!-- BEGIN List_Page -->
+							<a href="?app=news&page=baogiay&page_id={page}&cate_id={cate_id_page}">Trang {page}</a>
+						<!-- END List_Page -->
+                	</div>
+                </div>
+                 <a href="?app=news&page=baogiay&page_id={page_next}&cate_id={cate_id_page}" class="next">Trang tiếp theo</a>
+			</li>
+            <li>
+            	<a href="javascript:ZoomIn()" class="zoom-in">Thu nhỏ</a>
+                <a href="javascript:ZoomOut()" class="zoom-out">Phóng to</a>
+			</li>
+            <li>
+            	<a class="list-small">Dạng thu nhỏ</a>
+                <a class="list">Dạng danh sách</a>
+			</li>
+			<li>
+                <div class="select">
+                	<span>Số {cate_current}</span>
+                	<div class="select-value">
+                    	<!-- BEGIN Cate -->
+							<a href="?app=news&page=baogiay&cate_id={cate_id}">Số {name}</a>
+						<!-- END Cate -->
+					</div>
+                </div>
+			</li>
+        </ul>
+    </div>
+    <div id="content">
+    	<p id="page_img"><img id="img" src="{img}" alt="" title="" width="1024" /></p>
+    </div>

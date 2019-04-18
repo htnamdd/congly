@@ -2005,12 +2005,13 @@ class AdminNews extends Form
         joc()->set_file('AdminNews', Module::pathTemplate() . "backend/admin_tag_meta.htm");
         joc()->set_block('AdminNews', 'ListRow', 'ListRow');
         $newsObj = new BackendNews();
-        $list_meta_tag = $newsObj->getNews('tag_meta', 'id,tag,meta,link', '1=1', 'id DESC', '0,100');
+        $list_meta_tag = $newsObj->getNews('tag_meta', 'id,tag,meta,link,name', '1=1', 'id DESC', '0,100');
         $txt_html = '';
         foreach ($list_meta_tag as $row) {
             joc()->set_var('id', $row['id']);
             joc()->set_var('link', $row['link']);
             joc()->set_var('tag', $row['tag']);
+            joc()->set_var('name', $row['name']);
             joc()->set_var('meta', $row['meta']);
             $txt_html .= joc()->output('ListRow');
         }

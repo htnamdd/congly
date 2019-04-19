@@ -56,25 +56,25 @@
 						
 					  </td>
 					  <td class="bdleft" align="center"><p>
-						  <video width="100%"  poster = "{image}" controls="true">
-							  <source src="{video}" type="video/mp4">
-							  Your browser does not support the video tag.
-						  </video>
-
-                      </p>
-					  </td>
-					<td class="bdleft" align="left">
-						<textarea cols="50" rows="12" style="margin:5px;">
-							<center>
-								<p style="text-align: center">
-									<video width="100%" poster = "{image}" controls="true">
-										<source src="{video}" type="video/mp4">
-										Your browser does not support the video tag.
-									</video>
-								</p>
-							</center>
-						</textarea>
-					</td>
+                      <embed width="300" height="200" flashvars="width=300&amp;height=200&file={video}&image={image}" wmode="transparent" allowfullscreen="true" allowscriptaccess="always" quality="high" name="MediaPlayer" id="MediaPlayer" style="" src="data/video/mediaplayer.swf" type="application/x-shockwave-flash">
+                      </p></td>
+                                            <td class="bdleft" align="left">
+                                                <textarea cols="50" rows="12" style="margin:5px;">
+                                                    <center><p id="mediaplayer" style="text-align:center; border: 1px solid #CCC;">VIDEO</p>
+                                                    <script type="text/javascript">
+                                                        jwplayer( 'mediaplayer' ).setup({
+                                                                flashplayer: 'http://congly.com.vn/video/player.swf',
+                                                                file: '{video}',
+                                                                width:500,
+                                                                //height: 270,
+                                                                autostart: "false",
+                                                                image: "{image}"
+                                                        });
+                                                    </script>
+                                                    <p></p>
+													</center>
+                                                </textarea>
+                                            </td>
                                             <td class="bdleft" align="left"><p>{path}</td>
                                             <td class="bdleft" align="center"><p>{time_public}</p></td>
                                             <td class="bdleft" align="center">

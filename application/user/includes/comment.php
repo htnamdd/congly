@@ -6,7 +6,7 @@ require_once   UTILS_PATH.'cache.file.php';
 class Comment extends DatabaseObject 
 {
 	public $tableName='comment';
-	public $listField='id, number_like,parent_id,nw_id, full_name, email, content, time_post, ip_address, status, user_name';
+	public $listField='id, nw_id, full_name, email, content, time_post, ip_address, status, user_name';
 	private static $dbNews;
 	function __construct()
 	{
@@ -79,11 +79,7 @@ class Comment extends DatabaseObject
 		$sql="UPDATE $this->tableName SET time_public='".$cmt_data['time_public']."',censor_id='".$cmt_data['censor_id']."'  WHERE id in ($cmt_ids)";
 		
 		return $this->query($sql);
-	}
-	function updateLike($id){
-		$sql="UPDATE $this->tableName SET number_like = number_like + 1 WHERE id ={$id}";
-		return $this->query($sql);
-	}
+	} 
 	function deleteMultiData($cmt_ids)
 	{
 		$sql="DELETE FROM $this->tableName WHERE id in ($cmt_ids)";

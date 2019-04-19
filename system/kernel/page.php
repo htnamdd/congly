@@ -367,7 +367,12 @@ class Page
         <meta http-equiv="refresh" content="1200" />
         <meta http-equiv="X-UA-Compatible" content="IE=8"/>
         <meta name="RATING" content="GENERAL" />
-        <meta name="contact" content="conglydientu@congly.vn"/>
+        <meta name="contact" content="conglydientu@congly.com.vn"/>
+        <meta name="DC.title" content="Tin tuc moi nhat 24h Đọc báo tin tức pháp luật Công lý" />
+        <meta name="dc.source" CONTENT="http://congly.vn/">
+        <meta name="DC.subject" content=" Tin tức, tin tuc, tin mới, tin tức trong ngày, đọc báo, tin tức online,tin tức 24h,pháp luật"/>
+        <meta name="dc.keywords" CONTENT="Tin tuc, tin moi, tin tức mới nhất, tin tuc moi, tin tuc 24h, VN, doc bao, đọc báo, báo, tin mới nhất">
+        <meta name="DC.description" content="Tin tức mới nhất trong ngày được báo Công lý đưa tin nhanh nhất 24h hàng ngày. Đọc báo tin tức online cập nhật tin nóng thời sự pháp luật, giải trí..." />
         <meta name="DC.identifier" content="//congly.vn" />
         <meta name="DC.language" content="VN" />
         <meta name="geo.region" content="VN-HN" />

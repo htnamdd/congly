@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /storexh/
+Disallow: /search/
+Sitemap: http://congly.vn/sitemap.xml
+Sitemap: http://congly.vn/news.xml
+
+

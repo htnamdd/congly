@@ -50,7 +50,7 @@ class AdminHeader
 			$text_html.='<li class="havechild">
 						<a href="'.$row['url'].'">'.$row['name'].'</a>';
 			
-			if(count($arr_parent_child[$row['id']])){
+			if(count(@$arr_parent_child[$row['id']])){
 				$text_html.='<ul>';
 				foreach($arr_parent_child[$row['id']] as $child)
 				{

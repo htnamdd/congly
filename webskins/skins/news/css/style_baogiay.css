@@ -1,0 +1,166 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a {
+	text-decoration: none
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background: #ededed;
+	color: #111	
+}
+#box {
+	margin: 0 20px;	
+}
+#logo {	
+	padding: 10px 0 10px 45px	
+}
+#logo a {
+	display: block;
+	background: url(../images/baogiay/logo.png) no-repeat;
+	width: 206px;
+	height: 79px;
+	text-indent: -9999px;	
+}
+#nav {
+	background: url(../images/baogiay/menubg.png) repeat-x;
+	height: 41px;
+	border: #797979 1px solid;
+	border-bottom: 0	
+}
+#nav li {
+	float: left;
+	height: 41px;
+	background: url(../images/baogiay/border.png) no-repeat right top;
+	padding: 0 15px	
+}
+#nav a {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	background-repeat: no-repeat
+}
+
+#nav a.home {
+	background-image: url(../images/baogiay/icon-home.png);
+	width: 18px;
+	height: 16px;
+	margin: 10px 0 0	
+}
+#nav a.prev, #nav a.next {
+	background-image: url(../images/baogiay/icon-prev.png);
+	width: 28px;
+	height: 21px;
+	margin: 8px 0 0	
+}
+#nav .select {
+	float: left;
+	margin: 8px 10px 0;
+	border: #eee 1px solid;
+	height: 20px;
+	width: 150px;
+	position: relative;
+	background: #fff;	
+}
+#nav .select span {
+	display: block;
+	padding: 1px 0 0 5px	
+}
+#nav .select:hover .select-value {
+	display: block
+}
+.select-value {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: -1px;
+	width: 150px;
+	background: #fff;
+	border: #eee 1px solid;
+	border-bottom: 0
+}
+#nav .select-value a {
+	display: block;
+	text-indent: 0;
+	float: none;
+	border-bottom: #eee 1px solid;
+	padding: 5px	
+}
+#nav a.next {
+	background-image: url(../images/baogiay/icon-next.png)	
+}
+#nav a.zoom-in, #nav a.zoom-out {
+	background-image: url(../images/baogiay/icon-zoom.png);
+	width: 34px;
+	margin: 6px 5px 0;
+	height: 28px;	
+}
+#nav a.zoom-out {
+	background-image: url(../images/baogiay/icon-zoom-out.png)	
+}
+#nav a.list, #nav a.list-small {
+	background-image: url(../images/baogiay/icon-book.png);
+	width: 32px;
+	height: 32px;
+	margin: 2px 5px 0	
+}
+#nav a.list-small {
+	background-image: url(../images/baogiay/icon-book-small.png);
+	width: 16px;	
+	margin: 18px 5px 0;
+	height: 16px	
+}
+
+#content {
+	border: #797979 1px solid;
+	border-top: 0;
+	background: #c6c6c6;
+	text-align: center;
+	padding: 15px 0;
+	height: 800px;
+	overflow: auto
+}

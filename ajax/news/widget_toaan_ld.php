@@ -12,7 +12,7 @@ foreach($list_news_all as $row)
 	$href = 'http://congly.vn'.Url::Link(array("id" => $row['id'],"title" => $row['title'],'cate_alias'=>$LIST_CATEGORY_ALIAS[$row['cate_id']]), "news", "detail");
 	$arr_news[$row['id']]['title']=$row['title'];
 	$arr_news[$row['id']]['description']=$row['description'];
-	$arr_news[$row['id']]['img']=IMG::thumb($row,'cnn_210x140');
+	$arr_news[$row['id']]['img']=IMG::show($newsObj->getPathNews($row['time_created']),$row['img1'],'3');
 	$arr_news[$row['id']]['href']=$href;
 }
 $txt=json_encode($arr_news);

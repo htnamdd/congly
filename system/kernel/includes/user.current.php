@@ -61,7 +61,7 @@ class UserCurrent
 	 * 	isLogin
 	 */
 	static public function isLogin() {
-		return isset( $_SESSION [NAME_SESSION_USER]);
+		return isset($_SESSION[NAME_SESSION_USER]);
 	}
 	/**
 	 *	logIn

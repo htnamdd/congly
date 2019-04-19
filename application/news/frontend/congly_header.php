@@ -64,11 +64,11 @@ class Congly_Header
             joc()->set_var('current_home', 'mn-active');
             joc()->set_var('show_menu','display:block');
             joc()->set_var('logo', '<h1 style="margin:0px;padding:0px"><a href="/"><img src="webskins/skins/news/images/logo-congly.png" alt="Báo Công lý" /></a></h1>');
-            //joc()->set_var('logo', '<h1 style="margin:0px;padding:0px"><a href="/"><img src="adv/logo_tet.png" alt="Báo Công lý" /></a></h1>');
+            //joc()->set_var('logo', '<h1 style="margin:0px;padding:0px"><a href="/"><img src="adv/logo_tet2019.png" alt="Báo Công lý" /></a></h1>');
         } else {
             joc()->set_var('show_menu','display:none');
             joc()->set_var('current_home', '');
-            //joc()->set_var('logo', '<a href="/"><img src="adv/logo_tet.png" alt="Báo Công lý" /></a>');
+            //joc()->set_var('logo', '<a href="/"><img src="adv/logo_tet2019.png" alt="Báo Công lý" /></a>');
             joc()->set_var('logo', '<a href="/"><img src="webskins/skins/news/images/logo-congly.png" alt="Báo Công lý" /></a>');
         }
         $class = '';

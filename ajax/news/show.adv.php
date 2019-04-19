@@ -18,18 +18,15 @@ $array_adv_home = array('pos_1' => '
             <a target="_blank" href="https://toaan.gov.vn">
                 <img src="https://congly.vn/adv/tandtc.png" width="300px">
             </a>
-            <a target="_blank" href="https://congly.vn/ket-qua-xo-so/">
-                <img src="https://congly.vn/adv/xosobanner.jpg" width="300px">
-            </a>
             <a target="_blank" href="https://thacogroup.vn">
                 <img src="https://congly.vn/adv/truonghai.gif" width="300px">
             </a>
              <a href="https://www.vietinbank.vn/vn/tin-tuc/Mien-phi-6-thang-duy-tri-VietinBank-iPay-cho-khach-hang-dang-ky-moi-20180321151131.html" target="_blank">
                 <img style="padding:0px 0px 0px 0px;" width="300" src="https://congly.vn/adv/viettinban166.jpg" alt="">
            </a>
-             <!--a target="_blank" href="https://www.pvcombank.com.vn/">
+             <a target="_blank" href="https://www.pvcombank.com.vn/">
                 <img src="https://congly.vn/adv/giaithuong1.jpg" width="300px">
-            </a -->
+            </a>
             
 			 <a target="_blank" href="https://www.bidv.com.vn">
                 <img src="https://congly.vn/adv/BannerAPE2017.gif" width="300px">
@@ -51,9 +48,6 @@ $array_adv_home = array('pos_1' => '
                 <img width="1" height="1" style="padding:5px 0px 0px 0px;" src="https://congly.vn/adv/bia.jpg" alt="Bia">
             </a>',
     'pos_2' => '
-<a target="_blank">
-                <img style="padding:5px 0px 5px 0px;" width="290" height="270px" src="https://congly.vn/adv/VicemButSon.jpg" alt="">
-           </a>
 	<a target="_blank">
                 <img style="padding:5px 0px 5px 0px;" width="290" height="270px" src="https://congly.vn/adv/online_300x250.jpg" alt="">
            </a>
@@ -70,7 +64,7 @@ $array_adv_home = array('pos_1' => '
                 <img style="padding:5px 0px 5px 0px;" width="290" height="270px" src="https://congly.vn/adv/vsipbanner.gif" alt="">
            </a>
              <a href="https://www.hdbank.com.vn/Default.aspx?PageId=00000000-0000-0000-0000-000000000000" target="_blank">
-                <img style="padding:5px 0px 5px 0px;" width="290" height="270px" src="https://congly.vn/adv/hd-congly.jpg" alt="">
+                <img style="padding:5px 0px 5px 0px;" width="290" height="270px" src="https://congly.vn/adv/hdbank174.jpg" alt="">
            </a>
            
             <a href="https://www.vinamilk.com.vn/vi" target="_blank">

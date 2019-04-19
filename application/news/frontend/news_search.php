@@ -66,8 +66,8 @@ class News_Search
             }
         }
         joc()->set_var('url_tag',$_SERVER['REQUEST_URI']);
-        //joc()->set_var('q', strtolower($tag_unikey));
-        joc()->set_var('q', '');
+        joc()->set_var('q', strtolower($tag_unikey));
+        //joc()->set_var('q', '');
         joc()->set_block('News_Search', 'Row', 'Row');
         $text_html = '';
         if (count($list_search)) {

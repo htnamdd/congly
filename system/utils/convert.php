@@ -504,7 +504,6 @@ Class Convert
 
         $str = preg_replace('/[^a-zA-Z0-9\/]/', " ", $str);
         $str = preg_replace('/\s+/', "-", trim($str));
-        $str = str_replace('/', '-', $str);
         return strtolower($str);
     }
 

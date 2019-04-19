@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e537771-5828-4f19-b4d6-7f05016702b6" name="Default" comment="" />
+    <list default="true" id="2197d290-bfd0-40c5-b817-d6485088bf08" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +11,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="convert.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/utils/convert.php">
+      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/header.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="830">
-              <caret line="641" column="20" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_header.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webskins/template/main/admin_header.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminNews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/news/backend/AdminNews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1583" column="78" lean-forward="false" selection-start-line="1583" selection-start-column="70" selection-end-line="1583" selection-end-column="78" />
+              <folding>
+                <element signature="n#addLogoIntoImage#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#on_submit#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#index#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminNewsIntro#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#Royalties#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminRoyalties#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminPendingPublic#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#delete_files#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminHome#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminPendingCensor#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminNewsReturn#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminNewsStore#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminPrivate#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#autoDelNewsHome#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminNewsComment#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminTagMeta#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#adminRecycleBin#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <element signature="n#newsStatistic#0;n#AdminNews#0;n#!!top" expanded="false" />
+                <marker date="1543397711000" expanded="true" signature="46872:46885" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="47765:47778" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="80188:80215" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="83420:83433" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="84274:84292" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="95314:95369" ph="UPDATE store... " />
+                <marker date="1543397711000" expanded="true" signature="109439:109456" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="110129:110151" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="110337:110371" ph="..." />
+                <marker date="1543397711000" expanded="true" signature="110490:110513" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,17 +80,75 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>checkForm</find>
-      <find>from</find>
-      <find>begin_form</find>
+      <find>Sự kiện nổi bật</find>
+      <find>hdba</find>
+      <find>hdb-m</find>
+      <find>logo-congly.png</find>
+      <find>auto</find>
+      <find>tv.congly.com.vn</find>
+      <find>$memcache-&gt;set</find>
+      <find>tv.congly.vn</find>
+      <find>setVarCateOther</find>
+      <find>advertising-left-f1</find>
+      <find>name_edi</find>
+      <find>hung</find>
+      <find>HIT</find>
+      <find>http://</find>
+      <find>Hit</find>
+      <find>300</find>
+      <find>logovtcgame300x109px</find>
+      <find>logovtcgame300x109px.png</find>
+      <find>MEMCACHE_COMPRESSED</find>
+      <find>?print</find>
+      <find>action_print</find>
+      <find>uri</find>
+      <find>print</find>
+      <find>$_GET['print']</find>
+      <find>@</find>
     </findStrings>
+    <replaceStrings>
+      <replace>https://</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\xampp\htdocs\newscmscly\application</dir>
+      <dir>D:\xampp\htdocs\newscmscly\application\news\frontend</dir>
+      <dir>D:\xampp\htdocs\newscmscly</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/application/includes/tuoitre.php" />
+        <option value="$PROJECT_DIR$/define.php" />
+        <option value="$PROJECT_DIR$/system/utils/image.show.php" />
+        <option value="$PROJECT_DIR$/application/news/frontend/congly_footer.php" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/cate_center.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/congly_news.htm" />
+        <option value="$PROJECT_DIR$/application/news/frontend/congly_home_center.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/webskins/skins/news/css/responsive.css" />
+        <option value="$PROJECT_DIR$/webskins/skins/news/css/style.css" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/detail.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/footer.htm" />
+        <option value="$PROJECT_DIR$/application/news/frontend/review.php" />
+        <option value="$PROJECT_DIR$/system/kernel/includes/user.current.php" />
+        <option value="$PROJECT_DIR$/application/news/backend/AdminNewsTab.php" />
+        <option value="$PROJECT_DIR$/ajax/news/widget.php" />
+        <option value="$PROJECT_DIR$/ajax/news/widget_toaan_cate.php" />
+        <option value="$PROJECT_DIR$/application/news/frontend/congly_header.php" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/right.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/home_center.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/news/backend/admin_private.htm" />
+        <option value="$PROJECT_DIR$/application/news/backend/includes/backend.news.php" />
+        <option value="$PROJECT_DIR$/webskins/template/news/backend/admin_pending_censor.htm" />
+        <option value="$PROJECT_DIR$/ajax/news/admin.news.process.php" />
+        <option value="$PROJECT_DIR$/webskins/template/news/backend/admin_news_return.htm" />
+        <option value="$PROJECT_DIR$/application/news/backend/AdminNews.php" />
+        <option value="$PROJECT_DIR$/application/news/frontend/congly_detail.php" />
         <option value="$PROJECT_DIR$/ajax/news/show.adv.php" />
-        <option value="$PROJECT_DIR$/webskins/skins/css/style.css" />
-        <option value="$PROJECT_DIR$/system/utils/convert.php" />
+        <option value="$PROJECT_DIR$/webskins/template/news/frontend/header.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/news/backend/admin_add_edit.htm" />
+        <option value="$PROJECT_DIR$/webskins/template/main/admin_header.htm" />
       </list>
     </option>
   </component>
@@ -44,100 +158,69 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-6" />
+    <option name="y" value="-6" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
+              <item name="newscmscly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscmscly" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="newscmscly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscmscly" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="congly" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="newscmscly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscmscly" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webskins" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="newscmscly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscmscly" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webskins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="webskins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="webskins" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="webskins" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="congly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="congly" type="462c0819:PsiDirectoryNode" />
-              <item name="webskins" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="newscmscly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscmscly" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webskins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/extension/html/app/code/Cowell/CartSplit" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conglyxahoi" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,50 +234,114 @@
       </list>
     </option>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e537771-5828-4f19-b4d6-7f05016702b6" name="Default" comment="" />
-      <created>1536825521596</created>
+      <changelist id="2197d290-bfd0-40c5-b817-d6485088bf08" name="Default" comment="" />
+      <created>1511489147986</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536825521596</updated>
-      <workItem from="1536825522950" duration="826000" />
-      <workItem from="1543809346118" duration="1200000" />
-      <workItem from="1551841728790" duration="216000" />
-      <workItem from="1551844404048" duration="508000" />
-      <workItem from="1554951316981" duration="97000" />
-      <workItem from="1554953541454" duration="156000" />
+      <updated>1511489147986</updated>
+      <workItem from="1511489162697" duration="39000" />
+      <workItem from="1511834066414" duration="1679000" />
+      <workItem from="1512004381247" duration="2404000" />
+      <workItem from="1512007796519" duration="1235000" />
+      <workItem from="1512352790778" duration="1260000" />
+      <workItem from="1513216931860" duration="3808000" />
+      <workItem from="1513734682968" duration="1464000" />
+      <workItem from="1513993981622" duration="1895000" />
+      <workItem from="1514017703992" duration="703000" />
+      <workItem from="1514338529662" duration="22000" />
+      <workItem from="1515377012700" duration="495000" />
+      <workItem from="1515378382008" duration="360000" />
+      <workItem from="1517449410826" duration="621000" />
+      <workItem from="1519696409776" duration="740000" />
+      <workItem from="1520219342837" duration="4420000" />
+      <workItem from="1520387512517" duration="2816000" />
+      <workItem from="1520990954503" duration="24000" />
+      <workItem from="1522463161803" duration="2292000" />
+      <workItem from="1522634344673" duration="1267000" />
+      <workItem from="1522812857951" duration="1055000" />
+      <workItem from="1523325829826" duration="966000" />
+      <workItem from="1524102725141" duration="3479000" />
+      <workItem from="1524451697465" duration="60000" />
+      <workItem from="1525235194971" duration="567000" />
+      <workItem from="1525312556137" duration="46000" />
+      <workItem from="1525660896615" duration="3020000" />
+      <workItem from="1525832553494" duration="937000" />
+      <workItem from="1526435185414" duration="67000" />
+      <workItem from="1526435612761" duration="643000" />
+      <workItem from="1527043670463" duration="610000" />
+      <workItem from="1528163935269" duration="211000" />
+      <workItem from="1528768524242" duration="3289000" />
+      <workItem from="1530063978929" duration="4504000" />
+      <workItem from="1530498239742" duration="944000" />
+      <workItem from="1531101542777" duration="356000" />
+      <workItem from="1531103101595" duration="1600000" />
+      <workItem from="1531446485684" duration="521000" />
+      <workItem from="1531792333948" duration="397000" />
+      <workItem from="1531795089346" duration="663000" />
+      <workItem from="1532334984313" duration="2107000" />
+      <workItem from="1532917590021" duration="436000" />
+      <workItem from="1533003026241" duration="71000" />
+      <workItem from="1533088120423" duration="3262000" />
+      <workItem from="1533693275736" duration="694000" />
+      <workItem from="1534383951035" duration="27000" />
+      <workItem from="1534470958602" duration="1603000" />
+      <workItem from="1535508226968" duration="1499000" />
+      <workItem from="1535682401655" duration="947000" />
+      <workItem from="1536199868929" duration="1727000" />
+      <workItem from="1536201721589" duration="612000" />
+      <workItem from="1537155220576" duration="1054000" />
+      <workItem from="1537321644254" duration="663000" />
+      <workItem from="1538616919262" duration="1339000" />
+      <workItem from="1539828747696" duration="585000" />
+      <workItem from="1543369511364" duration="1708000" />
+      <workItem from="1543371317849" duration="889000" />
+      <workItem from="1543801310563" duration="44000" />
+      <workItem from="1543801543739" duration="809000" />
+      <workItem from="1543805087750" duration="1776000" />
+      <workItem from="1543807045075" duration="1078000" />
+      <workItem from="1544407848756" duration="1111000" />
+      <workItem from="1544493823394" duration="1535000" />
+      <workItem from="1544496064879" duration="107000" />
+      <workItem from="1546829970775" duration="1483000" />
+      <workItem from="1550540228683" duration="1011000" />
+      <workItem from="1551063799332" duration="899000" />
+      <workItem from="1551233058664" duration="596000" />
+      <workItem from="1554167901786" duration="856000" />
+      <workItem from="1555033859387" duration="222000" />
+      <workItem from="1555550397554" duration="1731000" />
+      <workItem from="1555552216493" duration="1826000" />
+      <workItem from="1555636986991" duration="836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3003000" />
+    <option name="totallyTimeSpent" value="86622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1378" height="740" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23867069" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,160 +354,479 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/news/frontend/congly_home_center.php</url>
+          <line>231</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/news/frontend/congly_home_center.php</url>
+          <line>187</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/news/frontend/review.php</url>
+          <line>411</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/news/frontend/includes/frontend.news.php</url>
+          <line>231</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/news/frontend/includes/frontend.news.php</url>
+          <line>188</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/application/news/backend/AdminNews.php</url>
-          <line>692</line>
+          <line>1054</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="8" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webskins/skins/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/url.php">
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2180">
-          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+        <state relative-caret-position="357">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/convert.php">
+    <entry file="file://$PROJECT_DIR$/application/includes/tuoitre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12820">
-          <caret line="641" column="20" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="20" />
+        <state relative-caret-position="1564">
+          <caret line="92" column="2" lean-forward="true" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/define.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_home_center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/utils/image.show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/includes/tuoitre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/includes/tuoitre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/define.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/utils/image.show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_topic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/cate_center.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/congly_news.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/05.03.home_center.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="333" column="43" lean-forward="true" selection-start-line="333" selection-start-column="43" selection-end-line="333" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/detail.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="271" column="10" lean-forward="false" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_news.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="105" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_news_store.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="49" lean-forward="false" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1525831366000" expanded="true" signature="542:560" ph="..." />
+            <marker date="1525831366000" expanded="true" signature="24104:24112" ph="á" />
+            <marker date="1525831366000" expanded="true" signature="25176:25219" ph="..." />
+            <marker date="1525831366000" expanded="true" signature="25321:25396" ph="..." />
+            <marker date="1525831366000" expanded="true" signature="26430:26473" ph="..." />
+            <marker date="1525831366000" expanded="true" signature="27309:27397" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/utils/url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/kernel/includes/user.current.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/backend/AdminNewsTab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/includes/frontend.news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="231" column="24" lean-forward="false" selection-start-line="231" selection-start-column="13" selection-end-line="231" selection-end-column="24" />
+          <folding>
+            <element signature="n#readSeo#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsHome#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getRegionInCategory#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getRegion#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getNews#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsInRegion#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getPathNews#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#detail#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#newsOne#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#newsOther#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getIdNewsCate#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getIdNewsMoreComments#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#searchFullTextNews#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getProvince#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#countRecord#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsReview#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#showNavigation#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#link_detail#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#updateSql#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#showIcon#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#newsFocus#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <element signature="n#getPoll#0;n#FrontendNews#0;n#!!top" expanded="false" />
+            <marker date="1484439343000" expanded="true" signature="6670:6713" ph="UPDATE store... " />
+            <marker date="1484439343000" expanded="true" signature="8530:8735" ph="SELECT cate_... " />
+            <marker date="1484439343000" expanded="true" signature="8771:8943" ph="SELECT cate_... " />
+            <marker date="1484439343000" expanded="true" signature="9523:9686" ph="SELECT nw_id... comment" />
+            <marker date="1484439343000" expanded="true" signature="10368:10444" ph="SELECT SQL_C... search" />
+            <marker date="1484439343000" expanded="true" signature="10534:10744" ph="SELECT SQL_C... " />
+            <marker date="1484439343000" expanded="true" signature="13203:13432" ph="..." />
+            <marker date="1484439343000" expanded="true" signature="13572:14100" ph="..." />
+            <marker date="1484439343000" expanded="true" signature="14311:14504" ph="..." />
+            <marker date="1484439343000" expanded="true" signature="14644:15100" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_home_center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="209" column="90" lean-forward="false" selection-start-line="209" selection-start-column="60" selection-end-line="209" selection-end-column="90" />
+          <folding>
+            <element signature="n#setVarCate#0;n#Congly_Home_Center#0;n#!!top" expanded="false" />
+            <element signature="n#showListCateChild#0;n#Congly_Home_Center#0;n#!!top" expanded="false" />
+            <element signature="n#getNewsCate#0;n#Congly_Home_Center#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/widget_toaan_ld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/widget_toaan_cate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/27.6home_center.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1029" column="41" lean-forward="true" selection-start-line="1029" selection-start-column="41" selection-end-line="1029" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/1.8home_center.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1020" column="14" lean-forward="true" selection-start-line="1020" selection-start-column="14" selection-end-line="1020" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/right.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/memcache/memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="209" column="7" lean-forward="true" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/update.hit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/home_center.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="164" column="29" lean-forward="false" selection-start-line="164" selection-start-column="29" selection-end-line="164" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_private.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="113" column="38" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_news_return.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/admin.news.process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="301" column="124" lean-forward="false" selection-start-line="301" selection-start-column="124" selection-end-line="301" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_pending_censor.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="93" column="21" lean-forward="false" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/backend/includes/backend.news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="338" column="284" lean-forward="false" selection-start-line="338" selection-start-column="284" selection-end-line="338" selection-end-column="284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="124" column="54" lean-forward="false" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/skins/news/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/skins/news/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/news/frontend/congly_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/kernel/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="103" lean-forward="false" selection-start-line="165" selection-start-column="98" selection-end-line="165" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/news/show.adv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="80" column="117" lean-forward="false" selection-start-line="80" selection-start-column="117" selection-end-line="80" selection-end-column="117" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_add_edit.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="1" selection-end-column="11" />
+        <state relative-caret-position="92">
+          <caret line="366" column="56" lean-forward="false" selection-start-line="366" selection-start-column="49" selection-end-line="366" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webskins/template/news/frontend/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="56" column="15" lean-forward="false" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
           <folding>
-            <element signature="e#15639#16303#0" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webskins/skins/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2180">
-          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/convert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12820">
-          <caret line="641" column="20" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/news/show.adv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="124" selection-start-line="54" selection-start-column="124" selection-end-line="54" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webskins/skins/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2180">
-          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/convert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10120">
-          <caret line="506" column="43" selection-start-line="506" selection-start-column="43" selection-end-line="506" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/news/show.adv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="124" lean-forward="true" selection-start-line="54" selection-start-column="124" selection-end-line="54" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webskins/skins/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/news/show.adv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="130" lean-forward="true" selection-start-line="54" selection-start-column="130" selection-end-line="54" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/news/show.adv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="54" column="124" selection-start-line="54" selection-start-column="124" selection-end-line="54" selection-end-column="124" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/news/backend/AdminNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="1619" column="104" selection-start-line="1619" selection-start-column="96" selection-end-line="1619" selection-end-column="104" />
+        <state relative-caret-position="17">
+          <caret line="1583" column="78" lean-forward="false" selection-start-line="1583" selection-start-column="70" selection-end-line="1583" selection-end-column="78" />
           <folding>
-            <element signature="n#addLogoIntoImage#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#on_submit#0;n#AdminNews#0;n#!!top" />
-            <element signature="e#1496#1589#0#PHP" />
-            <element signature="n#adminNewsIntro#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#Royalties#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#adminRoyalties#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#adminPendingPublic#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#delete_files#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#adminHome#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#adminPendingCensor#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#adminNewsReturn#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#adminNewsStore#0;n#AdminNews#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#addLogoIntoImage#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#on_submit#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#index#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminNewsIntro#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#Royalties#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminRoyalties#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminPendingPublic#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#delete_files#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminHome#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminPendingCensor#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminNewsReturn#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminNewsStore#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminPrivate#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#autoDelNewsHome#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminNewsComment#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminTagMeta#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#adminRecycleBin#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <element signature="n#newsStatistic#0;n#AdminNews#0;n#!!top" expanded="false" />
+            <marker date="1543397711000" expanded="true" signature="46872:46885" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="47765:47778" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="80188:80215" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="83420:83433" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="84274:84292" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="95314:95369" ph="UPDATE store... " />
+            <marker date="1543397711000" expanded="true" signature="109439:109456" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="110129:110151" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="110337:110371" ph="..." />
+            <marker date="1543397711000" expanded="true" signature="110490:110513" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webskins/template/news/backend/admin_add_edit.htm">
+    <entry file="file://$PROJECT_DIR$/webskins/template/main/admin_header.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="1" selection-end-column="11" />
+        <state relative-caret-position="17">
+          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
           <folding>
-            <element signature="e#15639#16303#0" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webskins/skins/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/utils/convert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="641" column="20" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="20" />
         </state>
       </provider>
     </entry>

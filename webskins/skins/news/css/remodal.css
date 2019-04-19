@@ -1,0 +1,87 @@
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+  display: none;
+}
+.remodal-wrapper {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 10px 0;
+}
+.remodal-is-initialized {
+  display: inline-block;
+}
+.remodal-overlay.remodal-is-opening, .remodal-overlay.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.remodal-overlay.remodal-is-opening {
+  animation-name: remodal-overlay-opening-keyframes;
+}
+
+.remodal-overlay.remodal-is-closing {
+  animation-name: remodal-overlay-closing-keyframes;
+}
+.remodal {
+  width: 96%;
+  vertical-align: top;
+  margin-top: 115px;
+  background-color: #e2e2e2;
+  padding: 2%;
+  position: relative;
+  outline: none;
+}
+.remodal.remodal-is-opening, .remodal.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.remodal.remodal-is-opening {
+  animation-name: remodal-opening-keyframes;
+}
+.remodal.remodal-is-closing {
+  animation-name: remodal-closing-keyframes;
+}
+.remodal-wrapper:after {
+  vertical-align: top;
+  margin-top: 115px;
+  background-color: #e2e2e2;
+  padding: 2%;
+}
+div.remodal-bg{
+	display: block;
+	float: right;
+}
+div.remodal-bg a{
+	display: inline-block;
+	background: #e2e2e2 url(../images/arrow-down.png) 5px 8px no-repeat;
+	height: 26px;
+	width: 26px;
+	margin-top: -1px;
+}
+div.remodal ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+div.remodal li{
+	display: inline-block;
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px solid #d4d4d4;
+}
+div.remodal li a{
+	line-height: 34px;
+}

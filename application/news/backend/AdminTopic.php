@@ -36,8 +36,7 @@ class AdminTopic extends Form
 		$keyword=SystemIO::post('keyword','def');
 		$title=SystemIO::post('title','def');
 		$type=SystemIO::post('type','int',0);
-		$content=SystemIO::post('content','def','');
-		$arrNewData=array('user_id'=>$user_info['id'],'type'=>$type,'content'=>$content,'name'=>$name,'property'=>1,'position'=>$position,'cate_id'=>$cate_id,'time_created'=>time(),'description'=>$desc,'keyword'=>$keyword,'title'=>$title);
+		$arrNewData=array('user_id'=>$user_info['id'],'type'=>$type,'name'=>$name,'property'=>1,'position'=>$position,'cate_id'=>$cate_id,'time_created'=>time(),'description'=>$desc,'keyword'=>$keyword,'title'=>$title);
 		if($img)
 			$arrNewData['img']=$img;
 		if($id)
@@ -127,7 +126,6 @@ class AdminTopic extends Form
 	function addAndEdit($id)
 	{
 		joc()->set_file('AdminTopic', Module::pathTemplate()."backend/topic_add_edit.htm");
-		Page::registerFile('ckeditor.js'	, 'webskins/richtext/ckeditor/ckeditor.js', 'footer', 'js');
 		Page::registerFile('admin Js'		 , Module::pathSystemJS().'admin.js' , 'header', 'js');
 		joc()->set_var('begin_form' , Form::begin(false, "POST", ' enctype="multipart/form-data" onsubmit="return checkForm()"'));
 		joc()->set_var('end_form' 	, Form::end());
@@ -142,13 +140,12 @@ class AdminTopic extends Form
 		joc()->set_var('description',$row['description']);
 		joc()->set_var('keyword',$row['keyword']);
 		joc()->set_var('position',$row['position']);
-		joc()->set_var('content',$row['content']);
 		joc()->set_var('type',$row['type']);
 		if($row['type'])
 			joc()->set_var('check','checked="checked"');
 		else
 			joc()->set_var('check','');				
-		joc()->set_var('img','<img width="200px" src="data/topic/'.$row['img'].'" />');
+		joc()->set_var('img','<img src="data/topic/'.$row['img'].'" />');		
 		$list_category=$newsObj->getListCategory('property&1=1 AND cate_id1 = 0','id ASC');	
 		joc()->set_var('option_cate',SystemIO::getOption(SystemIO::arrayToOption($list_category,'id','name'),(int)$row['cate_id']));
 		$html= joc()->output("AdminTopic");

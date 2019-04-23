@@ -115,8 +115,13 @@
             <input type="hidden" name="file_old[5]" value="{file5}" id="file_5"/>
             <li>
                 <label>Tag bài viết</label>
-                <input type="text" style="width:520px;" name="tag" id="tag" value="{tag}"/>&nbsp;<font color="#999999">(Không
-                quá 150 kí tự)</font>
+                <input type="text" style="width:450px;" name="tag_search" id="tag_search" value=""/>&nbsp;&nbsp;<input
+                    type="text" name="Tìm kiếm tag" value="Tìm kiếm tag" class="button" style="width:50px;"
+                    onclick="searchTag();"/>
+                <label id="report_tag"></label>
+                <ul id="result_relate_tag">
+                    {text_relate_tag}
+                </ul>
             </li>
 
             <li>
@@ -284,6 +289,15 @@
             $("#" + id).removeClass('choose').addClass("no-choose");
         }
     }
+    function setTag(obj, id) {
+
+        if (obj.checked) {
+            $("#tag_" + id).removeClass('no-choose').addClass("choose");
+        }
+        else {
+            $("#tag_" + id).removeClass('choose').addClass("no-choose");
+        }
+    }
 
     function searchRelate() {
         if ($("#keyword").val() == "" || $("#keyword").val() == null) {
@@ -297,6 +311,21 @@
             function (data) {
                 $("#report").html("");
                 $("#result_relate").append(data);
+            }
+        )
+    }
+    function searchTag() {
+        if ($("#tag_search").val() == "" || $("#tag_search").val() == null) {
+            alert("Bạn chưa nhập từ khóa");
+            return false;
+        }
+        $(".no-choose").hide();
+        $("#report_tag").html(' Đang tải dữ liệu');
+        $.post("ajax.php?fnc=search_tag&path=news",
+            {'tag': $("#tag_search").val()},
+            function (data) {
+                $("#report_tag").html("");
+                $("#result_relate_tag").append(data);
             }
         )
     }
@@ -334,6 +363,7 @@
         });
     });
 
+
     function checkForm() {
 
         if ($("#title_seo").val() == '' || $("#title_seo").val() == null) {
@@ -365,7 +395,7 @@
         }
 
         var content = CKEDITOR.instances.content.getData();
-        
+
         if (content == null || content == '') {
             alert('Bạn chưa nhập nội dung bài viết');
             return false;
@@ -375,11 +405,13 @@
             alert('Bạn chưa có link nội bộ trong bài viết, ít nhất 2 link!');
             return false;
         }
+
         if ($("#description").val() == '' || $("#description").val() == null) {
             alert("Bạn phải nhập trích dẫn");
             $("#description").focus();
             return false;
         }
+
         $("#submit_form").hide();
         $("#report_text").html('Đang thực hiện...');
         return true;
@@ -442,49 +474,7 @@
             }
         });
     });
-    $("#cate3").live('change', function (e) {
-        var cate_id = '';
-        $("#cate3 option:selected").each(function () {
-            cate_id += ',' + $(this).val();
-        });
-        cate_id = cate_id.substr(1);
-        $.ajax({
-            url: 'ajax.php?path=news&fnc=change_category_multi&id=' + cate_id + "&level=3" + ($("#cate4").length > 0 ? "" : "&cmd=1"),
-            type: 'GET',
-            dataType: 'json',
-            success: function (data) {
-                if (data.code == 1 && data.html != "")
-                    $("#cate4").html(data.html);
-                else
-                    $("#cate4").remove();
-                $("#cate5").remove();
-
-            },
-            timeout: function () {
-            }
-        });
-    });
     $(".choice_poll").live("click", function () {
         $("#poll").val($(this).val());
-    });
-    $("#cate4").live('change', function (e) {
-        var cate_id = '';
-        $("#cate4 option:selected").each(function () {
-            cate_id += ',' + $(this).val();
-        });
-        cate_id = cate_id.substr(1);
-        $.ajax({
-            url: 'ajax.php?path=news&fnc=change_category_multi&id=' + cate_id + "&level=4" + ($("#cate5").length > 0 ? "" : "&cmd=1"),
-            type: 'GET',
-            dataType: 'json',
-            success: function (data) {
-                if (data.code == 1 && data.html != "")
-                    $("#cate5").html(data.html);
-                else
-                    $("#cate5").remove();
-            },
-            timeout: function () {
-            }
-        });
     });
 </script>

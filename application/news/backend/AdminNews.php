@@ -170,7 +170,8 @@ class AdminNews extends Form
 
         $title = SystemIO::post('title', 'def');
         $description = SystemIO::post('description', 'def');
-        $tag = SystemIO::post('tag', 'def');
+        $tag = implode(',',SystemIO::post('tag', 'def'));
+
         $arr_relate = @$_POST['relate'];
         $list_news_ids = '';
         for ($i = 0; $i < count($arr_relate); ++$i) {
@@ -1740,7 +1741,14 @@ class AdminNews extends Form
         joc()->set_var('content', $row['content'] ? $row['content'] : '');
         joc()->set_var('author', $row['author'] ? $row['author'] : '');
         $tag = explode('[]', $row['tag']);
-        joc()->set_var('tag', $tag['0']);
+        $tags = explode(',', $tag['0']);
+        $textTag = '';
+        for($i = 0; $i < count($tags); ++$i){
+            $textTag .= '<li style="margin-left:150px;">&nbsp;<input type="checkbox" value="' . $tags[$i] . '" name="tag[]" checked="checked"/>' . $tags[$i] . '</li>';
+        }
+
+        joc()->set_var('text_relate_tag', $textTag);
+
         joc()->set_var('origin', $row['origin'] ? $row['origin'] : '');
         if ($row['file']) {
             $arr_file = explode(',', $row['file']);
@@ -2005,7 +2013,7 @@ class AdminNews extends Form
         joc()->set_file('AdminNews', Module::pathTemplate() . "backend/admin_tag_meta.htm");
         joc()->set_block('AdminNews', 'ListRow', 'ListRow');
         $newsObj = new BackendNews();
-        $list_meta_tag = $newsObj->getNews('tag_meta', 'id,tag,meta,link,name', '1=1', 'id DESC', '0,100');
+        $list_meta_tag = $newsObj->getNews('tag_meta', 'id,tag,meta,link,name', '1=1', 'id DESC', '0,2000');
         $txt_html = '';
         foreach ($list_meta_tag as $row) {
             joc()->set_var('id', $row['id']);
